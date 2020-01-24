@@ -8,6 +8,9 @@
 检测：yolov3_tiny(darknet)       强调速度
 
 分类：b-cnn(resnet-18)           强调准确率
+
 定位：retina-net(mobilenetv1)    强调速度
+
 修复：dcgan
+
 ocr :lpr-net(cnn+ctc)            强调准确率
