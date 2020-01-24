@@ -14,3 +14,11 @@
 修复：dcgan
 
 ocr :lpr-net(cnn+ctc)            强调准确率
+
+参考文献
+
+https://github.com/lyl8213/Plate_Recognition-LPRnet
+
+https://github.com/gm19900510/Pytorch_Retina_License_Plate
+
+https://github.com/CaptainEven/Vehicle-Car-detection-and-multilabel-classification
