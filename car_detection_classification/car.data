@@ -1,6 +1,0 @@
-classes = 1
-train  = /mnt/diskc/even/Car/train.txt
-valid  = /mnt/diskc/even/Car/valid.txt
-names = cfg/car.names
-backup = backup_car
-
