@@ -199,7 +199,7 @@ def location_main():
                 cv2.imshow("result:", processed)
                 # save image
 
-                name = "test.jpg"
+                name = "Q67876.jpg"
                 cv2.imwrite(name, processed)
             cv2.imshow('image', img_raw)
             # if cv2.waitKey(1000000) & 0xFF == ord('q'):
