@@ -84,7 +84,7 @@ plnet = plnet.to(device)
 import glob, datetime
 
 def location_main(myimage):
-    
+    print("jinruloc",myimage)
 
 
     resize = 1
@@ -96,7 +96,7 @@ def location_main(myimage):
     for i in range(data_len):
         
         img_raw = cv2.imread(myimage, cv2.IMREAD_COLOR)
-
+        print("pll_de,imgshape",img_raw.shape)
         img = np.float32(img_raw)
 
         im_height, im_width, _ = img.shape
@@ -161,11 +161,7 @@ def location_main(myimage):
         is_pl = False
         if args.save_image & (len(dets)!= 0):
             for b in dets:
-                # print("test!!!!!!!!!")
                 if (b[4] < args.vis_thres) :
-                    # print('<<<<',b[4])
-                    # print('no plate!!!')
-                    # name = None
                     continue
                 else:
                     is_pl = True
@@ -177,9 +173,6 @@ def location_main(myimage):
                 cv2.rectangle(img_raw, (b[0], b[1]), (b[2], b[3]), (0, 0, 255), 2)
                 cx = b[0]
                 cy = b[1] + 12
-                # cv2.putText(img_raw, text, (cx, cy),
-                #             cv2.FONT_HERSHEY_DUPLEX, 0.5, (255, 255, 255))
-
                 # landms
                 cv2.circle(img_raw, (b[5], b[6]), 1, (0, 0, 255), 4)
                 cv2.circle(img_raw, (b[7], b[8]), 1, (0, 255, 255), 4)
@@ -231,6 +224,7 @@ def location_main(myimage):
             # cv2.imshow('image', img_raw)
             # if cv2.waitKey(1000000) & 0xFF == ord('q'):
             #     cv2.destroyAllWindows()
+        print("定位jieshu")
     return name
 
 # location_main(args.image)

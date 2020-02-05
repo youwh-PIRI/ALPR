@@ -43,12 +43,18 @@ class ImageFolder(Dataset):
 
     def __getitem__(self, index):
         img_path = self.files[index % len(self.files)]
+
+        img = Image.open(img_path)
+        # roi = np.array(img)
         # Extract image as PyTorch tensor
-        img = transforms.ToTensor()(Image.open(img_path))
+        img = transforms.ToTensor()(img)
+        # roi = transforms.ToTensor()(roi)
         # Pad to square resolution
         img, _ = pad_to_square(img, 0)
+        # roi, _ = pad_to_square(roi, 0)
         # Resize
         img = resize(img, self.img_size)
+        # roi = resize(roi, self.img_size)
 
         return img_path, img
 

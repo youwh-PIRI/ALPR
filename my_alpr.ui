@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1403</width>
+    <width>1356</width>
     <height>890</height>
    </rect>
   </property>
@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>C:/Users/27058/.designer/backup/icon1.jpg</normaloff>C:/Users/27058/.designer/backup/icon1.jpg</iconset>
+    <normaloff>icon1.jpg</normaloff>icon1.jpg</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QFrame" name="frame">
@@ -105,7 +105,7 @@
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>20</x>
        <y>10</y>
        <width>72</width>
        <height>15</height>
@@ -136,10 +136,10 @@ font: 14pt &quot;Arial&quot;;</string>
    <widget class="QFrame" name="frame_3">
     <property name="geometry">
      <rect>
-      <x>1120</x>
-      <y>230</y>
+      <x>870</x>
+      <y>640</y>
       <width>251</width>
-      <height>161</height>
+      <height>71</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -164,8 +164,8 @@ font: 14pt &quot;Arial&quot;;</string>
     <widget class="QLabel" name="pr_loc">
      <property name="geometry">
       <rect>
-       <x>30</x>
-       <y>60</y>
+       <x>20</x>
+       <y>30</y>
        <width>181</width>
        <height>41</height>
       </rect>
@@ -244,7 +244,7 @@ font: 14pt &quot;Arial&quot;;</string>
       <rect>
        <x>580</x>
        <y>10</y>
-       <width>101</width>
+       <width>81</width>
        <height>21</height>
       </rect>
      </property>
@@ -256,14 +256,27 @@ font: 12pt &quot;Axure Handwriting&quot;;</string>
       <string/>
      </property>
     </widget>
+    <widget class="QRadioButton" name="car_debool">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>10</y>
+       <width>115</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>开启车辆检测</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QFrame" name="frame_7">
     <property name="geometry">
      <rect>
-      <x>1120</x>
-      <y>20</y>
-      <width>251</width>
-      <height>191</height>
+      <x>870</x>
+      <y>330</y>
+      <width>471</width>
+      <height>331</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -289,9 +302,9 @@ font: 12pt &quot;Axure Handwriting&quot;;</string>
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>40</y>
-       <width>201</width>
-       <height>141</height>
+       <y>30</y>
+       <width>401</width>
+       <height>271</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -307,9 +320,9 @@ font: 14pt &quot;Arial&quot;;</string>
     <property name="geometry">
      <rect>
       <x>870</x>
-      <y>20</y>
-      <width>241</width>
-      <height>191</height>
+      <y>0</y>
+      <width>481</width>
+      <height>331</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -335,9 +348,9 @@ font: 14pt &quot;Arial&quot;;</string>
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>40</y>
-       <width>201</width>
-       <height>141</height>
+       <y>30</y>
+       <width>401</width>
+       <height>271</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -738,7 +751,7 @@ color: rgb(0, 255, 0);</string>
      <rect>
       <x>480</x>
       <y>400</y>
-      <width>841</width>
+      <width>381</width>
       <height>80</height>
      </rect>
     </property>
@@ -820,9 +833,9 @@ color: rgb(0, 255, 0);</string>
     <property name="geometry">
      <rect>
       <x>610</x>
-      <y>670</y>
+      <y>730</y>
       <width>761</width>
-      <height>121</height>
+      <height>81</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -851,7 +864,7 @@ color: rgb(0, 255, 0);</string>
      <property name="geometry">
       <rect>
        <x>590</x>
-       <y>40</y>
+       <y>0</y>
        <width>93</width>
        <height>28</height>
       </rect>
@@ -867,7 +880,7 @@ color: rgb(0, 255, 0);</string>
      <property name="geometry">
       <rect>
        <x>480</x>
-       <y>40</y>
+       <y>0</y>
        <width>93</width>
        <height>28</height>
       </rect>
@@ -883,7 +896,7 @@ color: rgb(0, 255, 0);</string>
      <property name="geometry">
       <rect>
        <x>470</x>
-       <y>80</y>
+       <y>40</y>
        <width>220</width>
        <height>28</height>
       </rect>
@@ -899,7 +912,7 @@ color: rgb(0, 255, 0);</string>
      <property name="geometry">
       <rect>
        <x>240</x>
-       <y>80</y>
+       <y>40</y>
        <width>221</width>
        <height>28</height>
       </rect>
@@ -915,7 +928,7 @@ color: rgb(0, 255, 0);</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>80</y>
+       <y>40</y>
        <width>220</width>
        <height>28</height>
       </rect>
@@ -931,9 +944,9 @@ color: rgb(0, 255, 0);</string>
    <widget class="QFrame" name="frame_11">
     <property name="geometry">
      <rect>
-      <x>750</x>
-      <y>480</y>
-      <width>621</width>
+      <x>610</x>
+      <y>530</y>
+      <width>221</width>
       <height>121</height>
      </rect>
     </property>
@@ -959,15 +972,16 @@ color: rgb(0, 255, 0);</string>
     <widget class="QLabel" name="pr_res">
      <property name="geometry">
       <rect>
-       <x>50</x>
+       <x>30</x>
        <y>50</y>
-       <width>161</width>
+       <width>181</width>
        <height>61</height>
       </rect>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(215, 221, 255);
-font: 14pt &quot;Arial&quot;;
+font: 18pt &quot;Arial&quot;;
+
 </string>
      </property>
      <property name="text">
@@ -975,57 +989,11 @@ font: 14pt &quot;Arial&quot;;
      </property>
     </widget>
    </widget>
-   <widget class="QFrame" name="frame_5">
-    <property name="geometry">
-     <rect>
-      <x>870</x>
-      <y>230</y>
-      <width>241</width>
-      <height>161</height>
-     </rect>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
-    </property>
-    <widget class="QLabel" name="label_4">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>10</y>
-       <width>72</width>
-       <height>15</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>分类结果</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="cls_res">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>60</y>
-       <width>181</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(215, 221, 255);
-font: 14pt &quot;Arial&quot;;</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-   </widget>
    <widget class="QTextEdit" name="MsgTE">
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>730</y>
+      <y>750</y>
       <width>521</width>
       <height>56</height>
      </rect>
@@ -1086,26 +1054,13 @@ font: 14pt &quot;Arial&quot;;</string>
      <string>摄像头模式</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="mytest">
-    <property name="geometry">
-     <rect>
-      <x>630</x>
-      <y>530</y>
-      <width>93</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>mytest</string>
-    </property>
-   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1403</width>
+     <width>1356</width>
      <height>26</height>
     </rect>
    </property>
