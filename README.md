@@ -25,14 +25,17 @@
 检测对应文件夹：yolov3_tiny_car_det
 定位对应文件夹：plate_location
 识别对应文件夹：lprnet_Plate_Recognition
-多余文件夹为测试所用
 
+环境：
+python3
+openv-python 3.4
+pytorch 1.1
+pyqt5.9
+直接运行camershow.py文件即可进入pyqt的ui界面，支持视频，单张，摄像头模式
 
 
 目前完成状态：
-单张图片正常识别没问题
-视频模式正在测试
-摄像头模式未开始
+基本功能建造完成，待优化cpu版本的速度
 
 
 ## 参考文献
