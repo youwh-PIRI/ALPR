@@ -23,13 +23,13 @@
 
 分类功能暂时不做，修复功能待完善
 
-#检测对应文件夹：yolov3_tiny_car_det
+# 检测对应文件夹：yolov3_tiny_car_det
 
 |  size  |gtx titan x(fps)|
 | ------ | -------------- |
 |  33M   |       220      |
 
-#定位对应文件夹：plate_location
+# 定位对应文件夹：plate_location
 
 利用[RetinaFace](https://github.com/biubug6/Pytorch_Retinaface)进行迁移学习实现的车牌检测、车牌四角定位、车牌矫正对齐
 
@@ -47,11 +47,11 @@
 
 使用mobilenet0.25作为骨干网时，模型大小仅为1.7M
 
-|  size  |inference@gtx 1060(ms)|
-| ------ | -------------------- |
-|  1.7M  |       0.5-           |
+|  model  |inference@gtx 1060(ms)|
+| ------  | -------------------- |
+|  1.7M   |       0.5-           |
 
-#识别对应文件夹：lprnet_Plate_Recognition
+# 识别对应文件夹：lprnet_Plate_Recognition
 
 可参考我的博客链接，lprnet论文笔记
 
@@ -62,11 +62,11 @@
 - include blue/green license plate.
 - test images number is 27320.
 
-|  size  | personal test imgs(%) | inference@gtx 1060(ms) |
-| ------ | --------------------- | ---------------------- |
-|  1.7M  |         96.0+         |          0.5-          |
-
-#环境：
+|  model  | personal test imgs(%) | inference@gtx 1060(ms) |
+| ------  | --------------------- | ---------------------- |
+|  1.7M   |         96.0+         |          0.5-          |
+ 
+# 环境：
 - python3
 - openv-python 3.x
 - pytorch 1.1
@@ -74,7 +74,7 @@
 - imutils
 - Pillow
 
-#打开可视化界面：
+# 打开可视化界面：
 
 直接运行camershow.py文件即可进入pyqt的ui界面，支持视频，单张，摄像头模式
 
